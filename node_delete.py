@@ -22,12 +22,12 @@ def deleteNode(node):
     node.next = node.next.next
 
 
-head = linked_list([4, 5, 1, 9])
-x = head.next  
+L_list = linked_list([4, 5, 1, 9])
+x = L_list.next  
 deleteNode(x)
-print_list(head)
+print_list(L_list)
 
-head = linked_list([4, 5, 1, 9])
-x = head 
+L_list = linked_list([4, 5, 1, 9])
+x = L_list 
 deleteNode(x)
-print_list(head)
+print_list(L_list)
